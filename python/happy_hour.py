@@ -8,11 +8,13 @@ bars = ["Shoolbred's",
 
 people = ["Mattan",
           "Chris",
+	  "Gavin Belson",
           "that person you forgot to text back",
           "Kanye West",
-          "Samule L. Jackson"]
+          "Samuel L. Jackson"]
 
 random_bar = random.choice(bars)
 random_person = random.choice(people)
+random_friend = random.choice(people)
 
-print(f"How about you go to {random_bar} with {random_person}")
+print(f"How about you go to {random_bar} with {random_person} and {random_friend}")
