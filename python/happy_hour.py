@@ -68,4 +68,9 @@ random_bar = random.choice(bars)
 random_person = random.choice(people)
 random_friend = random.choice(people)
 
+if random_friend != random_person:
+ random_friend
+else:
+ random_friend = random.choice(people)
+
 print(f"How about you go to {random_bar} with {random_person} and {random_friend}")
